@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration
+2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition name="filter" template="/WEB-INF/pages/master.jsp">
+        <put-attribute name="body" value="/WEB-INF/pages/filter.jsp"/>
+    </definition>
+    <definition name="list" template="/WEB-INF/pages/master.jsp">
+        <put-attribute name="body" value="/WEB-INF/pages/list.jsp"/>
+    </definition>
+    <definition name="upload" template="/WEB-INF/pages/master.jsp">
+        <put-attribute name="body" value="/WEB-INF/pages/upload.jsp"/>
+    </definition>
+    <definition name="result" template="/WEB-INF/pages/master.jsp">
+        <put-attribute name="body" value="/WEB-INF/pages/result.jsp"/>
+    </definition>
+    <definition name="newRole" template="/WEB-INF/pages/master.jsp">
+        <put-attribute name="body" value="/WEB-INF/pages/newRole.jsp"/>
+    </definition>
+    <definition name="listRoles" template="/WEB-INF/pages/master.jsp">
+        <put-attribute name="body" value="/WEB-INF/pages/listRoles.jsp"/>
+    </definition>
+    <definition name="listPhone" template="/WEB-INF/pages/master.jsp">
+        <put-attribute name="body" value="/WEB-INF/pages/listPhone.jsp"/>
+    </definition>
+    <definition name="login" template="/WEB-INF/pages/login.jsp">
+    </definition>
+
+</tiles-definitions>
+
+
+
+
